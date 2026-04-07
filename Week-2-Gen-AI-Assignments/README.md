@@ -74,7 +74,7 @@ jupyter notebook
 - Implemented multi-turn conversation flow using chat history
 
 ---
-# NLP Assignment 4 – Fine-Tuning BERT for Text Classification
+# Assignment 4 – Fine-Tuning BERT for Text Classification
 
 ## Overview
 This assignment focuses on fine-tuning a pre-trained **BERT model** for binary sentiment classification using the **IMDB Movie Reviews** dataset. The goal is to understand how transformer models work, apply different fine-tuning strategies, and evaluate model performance using standard classification metrics.
@@ -200,3 +200,69 @@ This assignment demonstrated three fine-tuning strategies for BERT on binary sen
 The IMDB dataset is well-suited for sentiment analysis and BERT achieves strong results even with limited samples and epochs.
 
 ---
+# Assignment 5: Fine-Tuning BERT for POS Tagging & Chunking
+
+## 📌 Overview
+This project focuses on building a **token classification system using BERT** to perform:
+
+- 🧠 Part-of-Speech (POS) Tagging  
+- 🔍 Chunking (Phrase Detection)  
+
+The model is fine-tuned using the **CoNLL-2003 dataset** and evaluated using sequence-based metrics.
+---
+
+## 🎯 Objective
+- Fine-tune BERT for sequence labeling tasks  
+- Perform POS tagging and chunking  
+- Handle tokenization & label alignment  
+- Evaluate using precision, recall, and F1-score  
+
+---
+
+## 🛠️ Tech Stack
+- Python  
+- Hugging Face Transformers  
+- PyTorch  
+- Datasets & SeqEval  
+- Google Colab  
+
+---
+
+## 📂 Dataset
+- **Dataset:** CoNLL-2003  
+- **Features:**
+  - `tokens` → words  
+  - `pos_tags` → POS labels  
+  - `chunk_tags` → Chunk labels (BIO format)  
+
+---
+
+## 🔄 Pipeline
+```
+Raw Data → Tokenization → Label Alignment → Model Training → Evaluation → Inference → Comparison
+```
+
+---
+
+## ⚖️ POS Tagging vs Chunking
+
+| Feature      | POS Tagging        | Chunking            |
+|--------------|------------------|---------------------|
+| Level        | Word-level        | Phrase-level        |
+| Complexity   | Easy              | Medium              |
+| Output       | Grammar labels    | Phrase labels       |
+
+---
+
+## 💡 Key Learnings
+- BERT effectively captures contextual information  
+- Label alignment is critical for token classification  
+- Chunking is more complex than POS tagging  
+- seqeval evaluates at phrase-level, not just tokens  
+
+---
+
+## 📌 Conclusion
+This project demonstrates how BERT can be fine-tuned for sequence labeling tasks like POS tagging and chunking, handling real-world challenges such as subword tokenization and label alignment.
+
+**Hence, transformer-based token classification has become an essential technique in modern NLP applications.**
