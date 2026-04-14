@@ -1,4 +1,4 @@
-# Assignment 6: Mastering Prompt Templates in LangChain
+# Assignment: Mastering Prompt Templates in LangChain
 
 ## 📌 Overview
 
@@ -63,3 +63,75 @@ User Input → Validation → Prompt Template → Dynamic Prompt Generation → 
 ## ✅ Conclusion
 
 This assignment demonstrates how `PromptTemplate` enables flexible and scalable prompt management for LLM-based applications. Rather than writing static prompts, structuring them as reusable templates makes AI workflows cleaner, more maintainable, and production-ready.
+---
+Assignment: LangChain Deep Technical Blog 🚀
+
+## 📌 Project Overview
+
+The goal of this project is to understand and implement **LangChain**, a powerful framework for building applications using Large Language Models (LLMs).
+
+This project focuses on both:
+- ✅ Conceptual understanding  
+- ✅ Practical implementation using Python  
+
+---
+
+## ⚙️ Technologies Used
+
+- Python  
+- LangChain  
+- Hugging Face (Free API)  
+- Jupyter Notebook  
+
+---
+
+## 🧠 Key Concepts Covered
+
+- LLMs & Chat Models  
+- Prompt Templates  
+- Chains  
+- Memory  
+- Tools  
+- Document Loaders  
+- Vector Stores  
+
+---
+
+## 💻 Implementation
+
+The notebook includes working examples of:
+
+- Basic LLM calls  
+- PromptTemplate usage  
+- LLM Chains  
+- Memory handling  
+- Tool integration  
+- Document loading and vector storage  
+
+All code is written in a clean and modular way with explanations.
+
+---
+
+## 🏗️ Architecture
+```
+User Input → Prompt → LLM → Chain → Tool/Memory → Output
+```
+---
+
+## 🌍 Use Cases Implemented
+
+- AI Chatbot with memory  
+- Document Question Answering system  
+- AI Assistant with tools  
+
+---
+
+## 🔗 Link
+
+- 📘 Blog: https://medium.com/@samruddhikhedkar46/langchain-explained-434626f26403  
+
+---
+
+## 🎯 Learning Outcome
+
+This project helped me understand how to design and build **modular, scalable AI applications** using LangChain instead of just calling LLM APIs.
