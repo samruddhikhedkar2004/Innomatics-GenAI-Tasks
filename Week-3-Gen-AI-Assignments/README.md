@@ -64,7 +64,8 @@ User Input → Validation → Prompt Template → Dynamic Prompt Generation → 
 
 This assignment demonstrates how `PromptTemplate` enables flexible and scalable prompt management for LLM-based applications. Rather than writing static prompts, structuring them as reusable templates makes AI workflows cleaner, more maintainable, and production-ready.
 ---
-Assignment: LangChain Deep Technical Blog 🚀
+
+# Assignment: LangChain Deep Technical Blog 🚀
 
 ## 📌 Project Overview
 
